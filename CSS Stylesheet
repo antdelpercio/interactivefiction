@@ -1,0 +1,74 @@
+tw-passage {
+    font-family: impact
+	 ;
+}
+.enchantment-link:hover, tw-link:hover {
+ color: yellow;
+}
+tw-story[tags~="blackjack"] {
+ background-image:url("https://www.jetsetmag.com/wp-content/uploads/2017/10/Bellagio_BobbysRoom_NEW-1024x683.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="prison"] {
+ background-image:url("https://cdn.modernghana.com/images/content/1020201880640_1i840o4bbv_remandedcc.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="gas-station"] {
+ background-image:url("https://www.sunoco.com/content/userfiles/images/sunoco-ashburn-va.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="burning-"] {
+ background-image:url("https://www.wspa.com/wp-content/uploads/sites/53/2016/08/fire-generic_36106981_ver1.0-3.jpg?w=1280");
+ background-size:cover;
+}
+
+tw-story[tags~="intro-"] {
+ background-image:url("https://www.slantmagazine.com/wp-content/uploads/2007/05/tv_sopranos0617.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="camry"] {
+ background-image:url("https://file.kelleybluebookimages.com/kbb/base/house/2006/2006-Toyota-Camry-FrontSide_TOCAMXLE061_505x375.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="blackjack"] {
+ background-image:url("https://www.jetsetmag.com/wp-content/uploads/2017/10/Bellagio_BobbysRoom_NEW-1024x683.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="casino"] {
+ background-image:url("https://www.atlanticcitynj.com/!userfiles/gallery/132059598134730000.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="car-ride"] {
+ background-image:url("https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8fcf366c-99aa-43d3-8717-0870c7e974f5_1280x720.jpeg");
+ background-size:cover;
+}
+
+tw-story[tags~="goodbye"] {
+ background-image:url("https://cdn-ds.com/blogs-media/sites/83/2017/09/30093505/Car-driving-away.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="smirk"] {
+ background-image:url("https://i.pinimg.com/originals/d0/50/d5/d050d5582066095bf3eb99d7c784c4ac.png");
+ background-size:cover;
+}
+
+tw-story[tags~="shock"] {
+ background-image:url("https://static2.srcdn.com/wordpress/wp-content/uploads/2018/10/Chris-and-Paulie-in-The-Sopranos.jpg?q=50&fit=crop&w=963&h=541&dpr=1.5");
+ background-size:cover;
+}
+
+(set: $BOOM! to (text-style: "rumble"))
+
+(t8n:"slide-right")+(t8n-delay:3s)[It refers to a gun.]
+
+(t8n-depart: "dissolve")[[They Left the House]]
+
+(text-rotate:45)[The End]
